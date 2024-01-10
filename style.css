@@ -1,0 +1,7 @@
+#word {
+    width: 720px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    font-size: 4rem;
+}
