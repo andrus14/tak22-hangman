@@ -1,7 +1,30 @@
+body {
+    font-size: 4rem;
+}
+
 #word {
     width: 720px;
     display: flex;
     justify-content: space-around;
     margin: auto;
-    font-size: 4rem;
+}
+
+#alphabet {
+    width: 720px;
+    display: flex;
+    margin: 4rem auto;
+    flex-wrap: wrap;
+}
+
+#alphabet div {
+    margin: 0.5rem;
+}
+
+#score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grayed-out {
+    color: #c0c0c0;
 }
